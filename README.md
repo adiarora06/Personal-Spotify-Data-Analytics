@@ -1,15 +1,18 @@
 ## Project Pipeline
 
-Spotify Account  
+Data Extraction
 ↓  
 Spotify Personal Data Export (.json)  
 ↓  
-JSON File Integration (Python + glob)  
+Data Cleaning & Filtering 
+↓ 
+Data Storage & Management 
 ↓  
-Combined pandas DataFrame  
+Analytics & Apache Superset
+-Apache Superset connected via SQLAlchemy 
 ↓  
-Data Cleaning & Filtering  
+Exploratory Data Analysis
+-Custom created charts through queries
 ↓  
-Exploratory Data Analysis  
-↓  
-Visualization Generation (matplotlib & seaborn)  
+Visualization
+-Dashboard consisting of 5 combined charts  
